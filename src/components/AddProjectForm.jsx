@@ -15,6 +15,9 @@ function AddProjectForm({ onProjectFormSubmit }) {
         if (onProjectFormSubmit) {
             onProjectFormSubmit(newProject);
         }
+
+        setName('');
+        setDescription('');
     }
 
     return (
